@@ -27,5 +27,4 @@ run cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr -DCMAKE_INSTALL_SYSCONFDIR:PATH=/etc 
 
 workdir /data
 
-entrypoint ["/bin/sh","-c"]
-cmd ["alpr"]
+entrypoint ["alpr"]
